@@ -11,3 +11,18 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+body{
+	color: white;
+	background-color: #607D8B;
+	font-family: 'Hind', 'Serif' 
+}
+a{
+	color: white;
+	font-family: 'Montserrat', 'Serif';
+}
+.site-branding {
+	text-align: center;
+}
