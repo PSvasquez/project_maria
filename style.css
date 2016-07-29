@@ -26,3 +26,22 @@ a{
 .site-branding {
 	text-align: center;
 }
+.navbar-default {
+    background-color: #00BCD4;
+    border-color: #00BCD4;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-nav{
+	color: white;
+	background-color: #00BCD4;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+
