@@ -11,3 +11,21 @@ function my_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 ?>
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <title>Newtown Senior Center</title>
+  <meta charset = "UTF-8" />
+</head>
+<body>
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div> 
+ 
+      </div>
+    </div>
+  </nav>
+</div>
+</body>
+</html>
