@@ -52,20 +52,44 @@ a{
 	}
 	#left, #right {
 		top: 0; bottom: 0;
-		width: 40px;
+		width: 15px;
 		}
 		#left { left: 0; }
 		#right { right: 0; }
 		
 	#top, #bottom {
 		left: 0; right: 0;
-		height: 40px;
+		height: 15px;
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
         color: white;
         background-color: #00BCD4;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Custom navbar */
+.navbar-brand ,.navbar-nav>li>a {
+  	padding-left: 30px;
+    padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+.navbar-nav>.active>a {
+	opacity:.6;
 }
 
 
